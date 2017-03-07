@@ -24,6 +24,9 @@
 
 	body {
 		line-height: 1;
+		margin: 0;
+		padding: 0;
+		border: 20px solid #005c94;
 	}
 
 	ol, ul {
@@ -57,6 +60,11 @@
 	}
 
 /* Containers */
+
+	.gist-data{
+    height:250px; // Any height
+    overflow-y: visible;
+	}
 
 	.container {
 		margin-left: auto;
