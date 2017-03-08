@@ -4,6 +4,10 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
+<!--
+Modified by Scott Stoudt from HTML5 UP template
+-->
+
 <html>
 	<head>
 		<title>My Website: Scott Stoudt</title>
@@ -34,7 +38,8 @@
 				</nav>
 				<footer>
 					<ul class="icons">
-						<!--<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<!-- Removed for possible implementation at a later date
+						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
 						-->
 						<li><a href="https://www.facebook.com/scott.stoudt" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
@@ -98,7 +103,7 @@
 									<p>To view all of the projects I have worked on, navigate to my <a href="https://github.com/sstoudt19/Projects/tree/master">project repository</a> on Github.</p>
 									<div class="features">
 										<article>
-											<!-- Makes Slideshow of PowerPoint slides-->
+											<!-- Makes Slideshow of individual PowerPoint slide images-->
 											<div class="slideshow-container">
 												<div class="mySlides fade">
 													<div class="numbertext">1 / 15</div>
@@ -114,50 +119,62 @@
 													<div class="numbertext">3 / 15</div>
 													<img src="works/P2P_Project/Slide03.jpg" style="width:100%">
 												</div>
+
 												<div class="mySlides fade">
 													<div class="numbertext">4 / 15</div>
 													<img src="works/P2P_Project/Slide04.jpg" style="width:100%">
 												</div>
+
 												<div class="mySlides fade">
 													<div class="numbertext">5 / 15</div>
 													<img src="works/P2P_Project/Slide05.jpg" style="width:100%">
 												</div>
+
 												<div class="mySlides fade">
 													<div class="numbertext">6 / 15</div>
 													<img src="works/P2P_Project/Slide06.jpg" style="width:100%">
 												</div>
+
 												<div class="mySlides fade">
 													<div class="numbertext">7 / 15</div>
 													<img src="works/P2P_Project/Slide07.jpg" style="width:100%">
 												</div>
+
 												<div class="mySlides fade">
 													<div class="numbertext">8 / 15</div>
 													<img src="works/P2P_Project/Slide08.jpg" style="width:100%">
 												</div>
+
 												<div class="mySlides fade">
 													<div class="numbertext">9 / 15</div>
 													<img src="works/P2P_Project/Slide09.jpg" style="width:100%">
 												</div>
+
 												<div class="mySlides fade">
 													<div class="numbertext">10 / 15</div>
 													<img src="works/P2P_Project/Slide10.jpg" style="width:100%">
 												</div>
+
 												<div class="mySlides fade">
 													<div class="numbertext">11 / 15</div>
 													<img src="works/P2P_Project/Slide11.jpg" style="width:100%">
 												</div>
+
 												<div class="mySlides fade">
 													<div class="numbertext">12 / 15</div>
 													<img src="works/P2P_Project/Slide12.jpg" style="width:100%">
 												</div>
+
 												<div class="mySlides fade">
 													<div class="numbertext">13 / 15</div>
 													<img src="works/P2P_Project/Slide13.jpg" style="width:100%">
 												</div>
+
 												<div class="mySlides fade">
 													<div class="numbertext">14 / 15</div>
 													<img src="works/P2P_Project/Slide14.jpg" style="width:100%">
 												</div>
+
 												<div class="mySlides fade">
 													<div class="numbertext">15 / 15</div>
 													<img src="works/P2P_Project/Slide15.jpg" style="width:100%">
@@ -173,6 +190,8 @@
 												<span class="dot" onclick="currentSlide(2)"></span>
 												<span class="dot" onclick="currentSlide(3)"></span>
 											</div>
+											<!--End of Slideshow implementation..-->
+
 												<h4>Australian Aborigine Culture</h4>
 												<p>As a part of my trip to Australia with People to People, we were given the task of learning about various topic about the country, its people, and their culture. I chose to learn about the native people of Australia and their unique culture and traditions.</p>
 										</article>
@@ -264,7 +283,9 @@
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
 
-			<!-- Slideshow script-->
+			<!--
+			Slideshow script curtesy of https://themarklee.com/2013/10/16/simple-crossfading-slideshow-css/
+			-->
 			<script>
 				var slideIndex = 1;
 				showSlides(slideIndex);
